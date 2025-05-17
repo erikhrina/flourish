@@ -1,0 +1,1610 @@
+[
+    {
+        "id": 1,
+        "latin": "Saintpaulia ionantha",
+        "family": "Gesneriaceae",
+        "common": [
+            "African violet"
+        ],
+        "category": "Saintpaulia",
+        "origin": "Tanzania",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 15,
+            "fahrenheit": 59
+        },
+        "ideallight": "Bright indirect light",
+        "toleratedlight": "Low to moderate light",
+        "watering": "Keep soil evenly moist but avoid wetting leaves; water when topsoil is dry.",
+        "insects": [
+            "Spider mites",
+            "Mealybugs",
+            "Cyclamen mites",
+            "Aphids"
+        ],
+        "diseases": [
+            "Botrytis blight",
+            "Crown rot",
+            "Root rot"
+        ],
+        "use": [
+            "Table top"
+        ]
+    },
+    {
+        "id": 2,
+        "latin": "Aloe vera",
+        "family": "Asphodelaceae",
+        "common": [
+            "Aloe"
+        ],
+        "category": "Aloe",
+        "origin": "Arabian Peninsula",
+        "climate": "Arid, Tropical",
+        "tempmax": {
+            "celsius": 32,
+            "fahrenheit": 90
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright direct light",
+        "toleratedlight": "Partial shade",
+        "watering": "Allow soil to dry completely between waterings; water sparingly.",
+        "insects": [
+            "Mealybugs",
+            "Aphids"
+        ],
+        "diseases": [
+            "Scale",
+            "Leaf spot",
+            "Root rot"
+        ],
+        "use": [
+            "Table top",
+            "Outdoor"
+        ]
+    },
+    {
+        "id": 3,
+        "latin": "Asparagus setaceus",
+        "family": "Asparagaceae",
+        "common": [
+            "Asparagus fern",
+            "Climbing asparagus"
+        ],
+        "category": "Asparagus",
+        "origin": "South Africa",
+        "climate": "Subtropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 13,
+            "fahrenheit": 55
+        },
+        "ideallight": "Partial shade",
+        "toleratedlight": "Full shade",
+        "watering": "Keep soil consistently moist but not waterlogged.",
+        "insects": [
+            "Spider mites",
+            "Aphids",
+            "Whiteflies",
+            "Mealybugs"
+        ],
+        "diseases": [
+            "Root rot"
+        ],
+        "use": [
+            "Hanging",
+            "Table top"
+        ]
+    },
+    {
+        "id": 4,
+        "latin": "Begonia spp.",
+        "family": "Begoniaceae",
+        "common": [
+            "Begonia"
+        ],
+        "category": "Begonia",
+        "origin": "Tropical Americas, Africa, Asia",
+        "climate": "Subtropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright indirect light",
+        "toleratedlight": "Shade to partial sun",
+        "watering": "Keep soil evenly moist; avoid overwatering.",
+        "insects": [
+            "Aphids",
+            "Whiteflies",
+            "Spider mites",
+            "Mealybugs"
+        ],
+        "diseases": [
+            "Powdery mildew",
+            "Botrytis",
+            "Root rot"
+        ],
+        "use": [
+            "Table top",
+            "Secondary"
+        ]
+    },
+    {
+        "id": 5,
+        "latin": "Pilea peperomioides",
+        "family": "Urticaceae",
+        "common": [
+            "Chinese money plant",
+            "Pancake plant",
+            "UFO plant"
+        ],
+        "category": "Pilea",
+        "origin": "China",
+        "climate": "Temperate",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright indirect light",
+        "toleratedlight": "Low light",
+        "watering": "Water when topsoil is dry; ensure good drainage and avoid root rot.",
+        "insects": [
+            "Spider mites",
+            "Mealybugs",
+            "Fungus gnats",
+            "Scale insects"
+        ],
+        "diseases": [
+            "Root rot",
+            "Leaf spot"
+        ],
+        "use": [
+            "Table top"
+        ]
+    },
+    {
+        "id": 6,
+        "latin": "Schlumbergera bridgesii",
+        "family": "Cactaceae",
+        "common": [
+            "Christmas cactus"
+        ],
+        "category": "Schlumbergera",
+        "origin": "Brazil",
+        "climate": "Tropical (rainforest)",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright indirect light",
+        "toleratedlight": "Partial shade",
+        "watering": "Water when the top inch of soil is dry; keep soil evenly moist but not soggy.",
+        "insects": [
+            "Mealybugs",
+            "Spider mites",
+            "Aphids"
+        ],
+        "diseases": [
+            "Fusarium wilt",
+            "Phytophthora rot"
+        ],
+        "use": [
+            "Hanging",
+            "Table top"
+        ]
+    },
+    {
+        "id": 7,
+        "latin": "Chrysanthemum spp.",
+        "family": "Asteraceae",
+        "common": [
+            "Chrysanthemum",
+            "Mum"
+        ],
+        "category": "Chrysanthemum",
+        "origin": "Asia",
+        "climate": "Temperate",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 5,
+            "fahrenheit": 41
+        },
+        "ideallight": "Full sun",
+        "toleratedlight": "Partial shade",
+        "watering": "Keep soil consistently moist; avoid waterlogging.",
+        "insects": [
+            "Spider mites",
+            "Aphids",
+            "Leaf miners"
+        ],
+        "diseases": [
+            "Powdery mildew",
+            "Rust",
+            "Leaf spot"
+        ],
+        "use": [
+            "Outdoor beds",
+            "Cut flower"
+        ]
+    },
+    {
+        "id": 8,
+        "latin": "Narcissus spp.",
+        "family": "Amaryllidaceae",
+        "common": [
+            "Daffodil"
+        ],
+        "category": "Narcissus",
+        "origin": "Mediterranean",
+        "climate": "Temperate",
+        "tempmax": {
+            "celsius": 25,
+            "fahrenheit": 77
+        },
+        "tempmin": {
+            "celsius": 5,
+            "fahrenheit": 41
+        },
+        "ideallight": "Full sun",
+        "toleratedlight": "Partial shade",
+        "watering": "Keep soil moist during growth; do not water during dormancy.",
+        "insects": [
+            "Bulb flies",
+            "Aphids"
+        ],
+        "diseases": [
+            "Basal rot (Fusarium)"
+        ],
+        "use": [
+            "Outdoor",
+            "Cut flower"
+        ]
+    },
+    {
+        "id": 9,
+        "latin": "Hyacinthus orientalis",
+        "family": "Asparagaceae",
+        "common": [
+            "Hyacinth"
+        ],
+        "category": "Hyacinthus",
+        "origin": "Turkey",
+        "climate": "Temperate",
+        "tempmax": {
+            "celsius": 25,
+            "fahrenheit": 77
+        },
+        "tempmin": {
+            "celsius": 5,
+            "fahrenheit": 41
+        },
+        "ideallight": "Full sun",
+        "toleratedlight": "Partial shade",
+        "watering": "Keep soil moist during growth; reduce watering after flowering.",
+        "insects": [
+            "Aphids",
+            "Bulb flies"
+        ],
+        "diseases": [
+            "Bulb rot (Fusarium)"
+        ],
+        "use": [
+            "Outdoor",
+            "Cut flower"
+        ]
+    },
+    {
+        "id": 10,
+        "latin": "Begonia masoniana",
+        "family": "Begoniaceae",
+        "common": [
+            "Iron cross begonia"
+        ],
+        "category": "Begonia",
+        "origin": "Vietnam",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright indirect light",
+        "toleratedlight": "Shade",
+        "watering": "Keep soil evenly moist; avoid overwatering and wetting the leaves.",
+        "insects": [
+            "Spider mites",
+            "Mealybugs",
+            "Thrips"
+        ],
+        "diseases": [
+            "Powdery mildew",
+            "Root rot"
+        ],
+        "use": [
+            "Table top"
+        ]
+    },
+    {
+        "id": 11,
+        "latin": "Kalanchoe spp.",
+        "family": "Crassulaceae",
+        "common": [
+            "Kalanchoe"
+        ],
+        "category": "Kalanchoe",
+        "origin": "Madagascar",
+        "climate": "Subtropical (semi-arid)",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright indirect light",
+        "toleratedlight": "Full sun",
+        "watering": "Allow soil to dry between waterings; water sparingly.",
+        "insects": [
+            "Mealybugs",
+            "Aphids"
+        ],
+        "diseases": [
+            "Powdery mildew",
+            "Root rot"
+        ],
+        "use": [
+            "Table top"
+        ]
+    },
+    {
+        "id": 12,
+        "latin": "Hemerocallis spp.",
+        "family": "Asphodelaceae",
+        "common": [
+            "Daylily"
+        ],
+        "category": "Hemerocallis",
+        "origin": "Asia",
+        "climate": "Temperate",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": -10,
+            "fahrenheit": 14
+        },
+        "ideallight": "Full sun",
+        "toleratedlight": "Partial shade",
+        "watering": "Water regularly during the growing season; tolerant of some drought.",
+        "insects": [
+            "Thrips",
+            "Spider mites",
+            "Aphids"
+        ],
+        "diseases": [
+            "Leaf streak",
+            "Rust"
+        ],
+        "use": [
+            "Outdoor border"
+        ]
+    },
+    {
+        "id": 13,
+        "latin": "Convallaria majalis",
+        "family": "Asparagaceae",
+        "common": [
+            "Lily of the valley"
+        ],
+        "category": "Convallaria",
+        "origin": "Europe",
+        "climate": "Temperate",
+        "tempmax": {
+            "celsius": 25,
+            "fahrenheit": 77
+        },
+        "tempmin": {
+            "celsius": -10,
+            "fahrenheit": 14
+        },
+        "ideallight": "Shade to partial shade",
+        "toleratedlight": "Full shade",
+        "watering": "Keep soil moist",
+        "insects": [
+            "Aphids"
+        ],
+        "diseases": [
+            "Leaf spot"
+        ],
+        "use": [
+            "Groundcover",
+            "Shade garden"
+        ]
+    },
+    {
+        "id": 14,
+        "latin": "Pachira aquatica",
+        "family": "Malvaceae",
+        "common": [
+            "Money tree"
+        ],
+        "category": "Pachira",
+        "origin": "Central and South America",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 15,
+            "fahrenheit": 59
+        },
+        "ideallight": "Bright indirect light",
+        "toleratedlight": "Partial shade",
+        "watering": "Water when topsoil is dry; avoid waterlogging.",
+        "insects": [
+            "Mealybugs",
+            "Spider mites",
+            "Scale insects"
+        ],
+        "diseases": [
+            "Root rot",
+            "Leaf spot",
+            "Powdery mildew"
+        ],
+        "use": [
+            "Table top",
+            "Floor"
+        ]
+    },
+    {
+        "id": 15,
+        "latin": "Hypoestes phyllostachya",
+        "family": "Acanthaceae",
+        "common": [
+            "Polka dot plant"
+        ],
+        "category": "Hypoestes",
+        "origin": "Madagascar",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 15,
+            "fahrenheit": 59
+        },
+        "ideallight": "Bright indirect light",
+        "toleratedlight": "Shade",
+        "watering": "Keep soil evenly moist; high humidity preferred.",
+        "insects": [
+            "Mealybugs",
+            "Aphids",
+            "Whiteflies"
+        ],
+        "diseases": [
+            "Root rot",
+            "Powdery mildew",
+            "Leaf spot"
+        ],
+        "use": [
+            "Table top",
+            "Secondary"
+        ]
+    },
+    {
+        "id": 16,
+        "latin": "Sansevieria trifasciata",
+        "family": "Asparagaceae",
+        "common": [
+            "Snake plant",
+            "Mother-in-law's tongue"
+        ],
+        "category": "Sansevieria",
+        "origin": "West Africa",
+        "climate": "Tropical (dry)",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright indirect light",
+        "toleratedlight": "Low light",
+        "watering": "Allow soil to dry between waterings; drought tolerant.",
+        "insects": [
+            "Spider mites",
+            "Mealybugs",
+            "Scale insects",
+            "Aphids"
+        ],
+        "diseases": [
+            "Root rot",
+            "Leaf spot"
+        ],
+        "use": [
+            "Table top",
+            "Floor"
+        ]
+    },
+    {
+        "id": 17,
+        "latin": "Tradescantia spp.",
+        "family": "Commelinaceae",
+        "common": [
+            "Wandering Jew",
+            "Spiderwort"
+        ],
+        "category": "Tradescantia",
+        "origin": "Americas",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright indirect light",
+        "toleratedlight": "Shade",
+        "watering": "Keep soil evenly moist, allow slight drying between waterings.",
+        "insects": [
+            "Spider mites",
+            "Aphids",
+            "Thrips",
+            "Mealybugs"
+        ],
+        "diseases": [
+            "Leaf spot",
+            "Botrytis",
+            "Powdery mildew"
+        ],
+        "use": [
+            "Hanging",
+            "Table top"
+        ]
+    },
+    {
+        "id": 18,
+        "latin": "Tulipa spp.",
+        "family": "Liliaceae",
+        "common": [
+            "Tulip"
+        ],
+        "category": "Tulipa",
+        "origin": "Central Asia",
+        "climate": "Temperate",
+        "tempmax": {
+            "celsius": 25,
+            "fahrenheit": 77
+        },
+        "tempmin": {
+            "celsius": 5,
+            "fahrenheit": 41
+        },
+        "ideallight": "Full sun",
+        "toleratedlight": "Partial shade",
+        "watering": "Keep soil moist during growth; dry after foliage dies.",
+        "insects": [
+            "Aphids",
+            "Bulb flies"
+        ],
+        "diseases": [
+            "Basal rot (Fusarium)",
+            "Tulip mosaic virus"
+        ],
+        "use": [
+            "Outdoor",
+            "Cut flower"
+        ]
+    },
+    {
+        "id": 19,
+        "latin": "Dionaea muscipula",
+        "family": "Droseraceae",
+        "common": [
+            "Venus flytrap"
+        ],
+        "category": "Dionaea",
+        "origin": "United States (Carolina bogs)",
+        "climate": "Temperate (subtropical wetlands)",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 86
+        },
+        "tempmin": {
+            "celsius": 2,
+            "fahrenheit": 36
+        },
+        "ideallight": "Full sun",
+        "toleratedlight": "Bright indirect light",
+        "watering": "Keep soil moist with distilled water; never let dry out.",
+        "insects": [
+            "Spider mites",
+            "Aphids"
+        ],
+        "diseases": [
+            "Crown rot"
+        ],
+        "use": [
+            "Table top"
+        ]
+    },
+    {
+        "id": 20,
+        "latin": "Anthurium superbum",
+        "family": "Araceae",
+        "common": [
+            "Bronze Anthurium"
+        ],
+        "category": "Anthurium",
+        "origin": "Ecuador",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 18,
+            "fahrenheit": 64.4
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Water when soil is half dry. Can be dry between watering.",
+        "insects": [
+            "Spider mite",
+            "Mealy bug"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Table top",
+            "Colors / Forms",
+            "Secondary"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "anthurium andraeanum"
+    },
+    {
+        "id": 21,
+        "latin": "Dypsis lutescens",
+        "family": "Arecaceae",
+        "common": [
+            "Areca palm",
+            "Butterfly palm"
+        ],
+        "category": "Palm",
+        "origin": "Madagascar",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "6 or more hours of direct sunlight per day.",
+        "toleratedlight": "Direct sunlight.",
+        "watering": "Keep moist between watering. Must not be dry between watering",
+        "insects": [
+            "Spider mite",
+            "Mealy bug",
+            "Scale"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Potted plant",
+            "Secondary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "dypsis lutescens"
+    },
+    {
+        "id": 22,
+        "latin": "Strelitzia nicolai",
+        "family": "Strelitziaceae",
+        "common": [
+            "White bird of paradise"
+        ],
+        "category": "Foliage plant",
+        "origin": "South Africa",
+        "climate": "Subtropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 20
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 53.6
+        },
+        "ideallight": "6 or more hours of direct sunlight per day.",
+        "toleratedlight": "Direct sunlight.",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": [
+            "Spider mite",
+            "Mealy bug"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Table top",
+            "Tertiary"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "strelitzia reginae"
+    },
+    {
+        "id": 23,
+        "latin": "Asplenium nidus",
+        "family": "Aspleniaceae",
+        "common": [
+            "Birdnest fern"
+        ],
+        "category": "Fern",
+        "origin": "Asia",
+        "climate": "Tropical humid",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 15,
+            "fahrenheit": 59
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Must not be dry between watering",
+        "insects": "Mealy bug",
+        "diseases": "N/A",
+        "use": [
+            "Potted plant",
+            "Primary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "asplenium nidus"
+    },
+    {
+        "id": 24,
+        "latin": "Nephrolepis exaltata var",
+        "family": "Nephrolepidaceae",
+        "common": [
+            "Boston fern",
+            "Sword fern"
+        ],
+        "category": "Fern",
+        "origin": "Cultivar",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": [
+            "Mealy bug",
+            "Scale"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Hanging",
+            "Tertiary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "nephrolepis exaltata"
+    },
+    {
+        "id": 42,
+        "latin": "Calathea veitchiana",
+        "family": "Marantaceae",
+        "common": [
+            "Medallion Calathea"
+        ],
+        "category": "Foliage plant",
+        "origin": "Hybrid",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 25,
+            "fahrenheit": 77
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": [
+            "Spider mite",
+            "Mealy bug",
+            "Scale"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Table top",
+            "Ground cover"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "calathea lancifolia"
+    },
+    {
+        "id": 26,
+        "latin": "Aspidistra elatior",
+        "family": "Liliaceae",
+        "common": [
+            "Cast iron plant"
+        ],
+        "category": "Foliage plant",
+        "origin": "China",
+        "climate": "Subtropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 8,
+            "fahrenheit": 46.4
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Water when soil is half dry. Can be dry between watering.",
+        "insects": [
+            "Spider mite",
+            "Mealy bug",
+            "Scale"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Ground cover",
+            "Potted plant"
+        ],
+        "matched_as": "latin",
+        "matched_name": "aspidistra elatior"
+    },
+    {
+        "id": 27,
+        "latin": "Aglaonema",
+        "family": "Araceae",
+        "common": [
+            "Chinese Evergreen",
+            "Amelia"
+        ],
+        "category": "Aglaonema",
+        "origin": "Hybrid",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 18,
+            "fahrenheit": 64.4
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": [
+            "Mealy bug",
+            "Scale"
+        ],
+        "diseases": [
+            "Phytophtora",
+            "Crown rot"
+        ],
+        "use": [
+            "Potted plant",
+            "Secondary",
+            "Tertiary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "aglaonema"
+    },
+    {
+        "id": 28,
+        "latin": "Ctenanthe lubbersiana",
+        "family": "Marantaceae",
+        "common": [
+            "Phrynium"
+        ],
+        "category": "Foliage plant",
+        "origin": "Brazil",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 25,
+            "fahrenheit": 77
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 53.6
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Must not be dry between watering",
+        "insects": [
+            "Spider mite",
+            "Mealy bug"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Potted plant",
+            "Secondary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "ctenanthe"
+    },
+    {
+        "id": 29,
+        "latin": "Dracaena marginata",
+        "family": "Liliaceae",
+        "common": [
+            "Madagascar dragon tree",
+            "Tricolor"
+        ],
+        "category": "Dracaena",
+        "origin": "Cultivar",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Can dry between watering",
+        "insects": [
+            "Mealy bug",
+            "Scale",
+            "Spider mite"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Potted plant",
+            "Secondary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "dracaena"
+    },
+    {
+        "id": 30,
+        "latin": "Dieffenbachia",
+        "family": "Araceae",
+        "common": [
+            "Dumcane",
+            "Tropic Mary Ann"
+        ],
+        "category": "Dieffenbachia",
+        "origin": "Hybrid",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 53.6
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Can dry between watering",
+        "insects": [
+            "Spider mite",
+            "Mealy bug"
+        ],
+        "diseases": [
+            "Fusarium",
+            "Erwinia"
+        ],
+        "use": [
+            "Table top",
+            "Potted plant"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "dieffenbachia spp."
+    },
+    {
+        "id": 31,
+        "latin": "Alocasia nebula Imperialis",
+        "family": "Araceae",
+        "common": [
+            "Elephant ear"
+        ],
+        "category": "Other",
+        "origin": "Cultivar",
+        "climate": "Tropical humid",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 15,
+            "fahrenheit": 59
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Direct sunlight.",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": [
+            "Spider mite",
+            "Mealy bug"
+        ],
+        "diseases": [
+            "Phytophtora",
+            "Crown rot"
+        ],
+        "use": [
+            "Colors / Forms",
+            "Table top",
+            "Tertiary"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "alocasia spp."
+    },
+    {
+        "id": 32,
+        "latin": "Hedera canariensis",
+        "family": "Araliaceae",
+        "common": [
+            "Algerian ivy",
+            "Montgomery ivy"
+        ],
+        "category": "Hanging",
+        "origin": "Canaries",
+        "climate": "Subtropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 20
+        },
+        "tempmin": {
+            "celsius": 5,
+            "fahrenheit": 41
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": [
+            "Spider mite",
+            "Mealy bug",
+            "Scale"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Hanging",
+            "Ground cover"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "hedera helix"
+    },
+    {
+        "id": 33,
+        "latin": "Crassula argentea",
+        "family": "Crasssulaceae",
+        "common": [
+            "Jade Plant"
+        ],
+        "category": "Cactus And Succulent",
+        "origin": "South Africa",
+        "climate": "Subtropical arid",
+        "tempmax": {
+            "celsius": 35,
+            "fahrenheit": 95
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 55
+        },
+        "ideallight": "6 or more hours of direct sunlight per day.",
+        "toleratedlight": "Direct sunlight.",
+        "watering": "Water only when the soil is dry. Must be dry between watering",
+        "insects": "Mealy bug",
+        "diseases": "N/A",
+        "use": [
+            "Potted plant",
+            "Primary"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "crassula ovata"
+    },
+    {
+        "id": 34,
+        "latin": "Monstera deliciosa",
+        "family": "Araceae",
+        "common": [
+            "Splitleaf Philodendron",
+            "Mexican Breadfruit"
+        ],
+        "category": "Philodendron",
+        "origin": "Central America",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 32,
+            "fahrenheit": 89.6
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 53.6
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Water when soil is half dry. Can be dry between watering.",
+        "insects": "Mealy bug",
+        "diseases": "N/A",
+        "use": [
+            "Potted plant",
+            "Secondary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "monstera deliciosa"
+    },
+    {
+        "id": 35,
+        "latin": "Epiphyllum",
+        "family": "Cactaceae",
+        "common": [
+            "Orchid cactus"
+        ],
+        "category": "Cactus And Succulent",
+        "origin": "Hybrid",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 32,
+            "fahrenheit": 89.6
+        },
+        "tempmin": {
+            "celsius": 5,
+            "fahrenheit": 41
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Direct sunlight",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": "Mealy bug",
+        "diseases": "N/A",
+        "use": [
+            "Hanging",
+            "Secondary"
+        ],
+        "matched_as": "common",
+        "matched_name": "orchid"
+    },
+    {
+        "id": 36,
+        "latin": "Chamaedorea elegans",
+        "family": "Arecaceae",
+        "common": [
+            "Bella palm",
+            "Neanthebella palm",
+            "Dwarf palm",
+            "Parlor palm"
+        ],
+        "category": "Palm",
+        "origin": "Mexico",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 5,
+            "fahrenheit": 41
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": [
+            "Spider mite",
+            "Mealy bug",
+            "Scale"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Potted plant",
+            "Tertiary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "chamaedorea elegans"
+    },
+    {
+        "id": 37,
+        "latin": "Liriope muscari Variegata",
+        "family": "Liliaceae",
+        "common": [
+            "Variegated lily turf"
+        ],
+        "category": "Foliage plant",
+        "origin": "Japan",
+        "climate": "Subtropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 20
+        },
+        "tempmin": {
+            "celsius": 8,
+            "fahrenheit": 46.4
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Direct sunlight",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": [
+            "Spider mite",
+            "Scale"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Ground cover",
+            "Table top"
+        ],
+        "matched_as": "common_partial",
+        "matched_name": "peace lily"
+    },
+    {
+        "id": 38,
+        "latin": "Euphorbia milii",
+        "family": "Euphorbiaceae",
+        "common": [
+            "Christ thorn",
+            "Crown of thorns"
+        ],
+        "category": "Cactus And Succulent",
+        "origin": "Madagascar",
+        "climate": "Arid Tropical",
+        "tempmax": {
+            "celsius": 35,
+            "fahrenheit": 95
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 53.6
+        },
+        "ideallight": "6 or more hours of direct sunlight per day.",
+        "toleratedlight": "Direct sunlight.",
+        "watering": "Water only when the soil is dry. Must be dry between watering",
+        "insects": [
+            "Mealy bug",
+            "White fly"
+        ],
+        "diseases": [
+            "Downy mildiou",
+            "Gray mold"
+        ],
+        "use": [
+            "Table top",
+            "Tertiary"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "euphorbia pulcherrima"
+    },
+    {
+        "id": 39,
+        "latin": "Nolina recurvata",
+        "family": "Agavaceae",
+        "common": [
+            "Elephant foot",
+            "Pony tail"
+        ],
+        "category": "Foliage plant",
+        "origin": "Mexico",
+        "climate": "Arid Tropical",
+        "tempmax": {
+            "celsius": 32,
+            "fahrenheit": 89.6
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 53.6
+        },
+        "ideallight": "6 or more hours of direct sunlight per day.",
+        "toleratedlight": "Direct sunlight.",
+        "watering": "Water when soil is half dry. Can be dry between watering.",
+        "insects": [
+            "Scale",
+            "Mealy bug"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Primary",
+            "Potted plant"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "beaucarnea recurvata"
+    },
+    {
+        "id": 40,
+        "latin": "Cissus rhombifolia",
+        "family": "Vitaceae",
+        "common": [
+            "Grape Ivy",
+            "Ellen Danica"
+        ],
+        "category": "Hanging",
+        "origin": "Cultivar",
+        "climate": "Subtropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Can dry between watering",
+        "insects": "Mealy bug",
+        "diseases": [
+            "Downy mildiou",
+            "Powdery"
+        ],
+        "use": [
+            "Hanging",
+            "Ground cover"
+        ],
+        "matched_as": "common_partial",
+        "matched_name": "ivy arum"
+    },
+    {
+        "id": 41,
+        "latin": "Maranta leuconeura erythroneura",
+        "family": "Marantaceae",
+        "common": [
+            "Herringbone",
+            "Pink praying plant"
+        ],
+        "category": "Hanging",
+        "origin": "Brazil",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 53.6
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": "Mealy bug",
+        "diseases": "N/A",
+        "use": [
+            "Hanging",
+            "Table top"
+        ],
+        "matched_as": "latin",
+        "matched_name": "maranta leuconeura"
+    },
+    {
+        "id": 42,
+        "latin": "Calathea veitchiana",
+        "family": "Marantaceae",
+        "common": [
+            "Medallion Calathea"
+        ],
+        "category": "Foliage plant",
+        "origin": "Hybrid",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 25,
+            "fahrenheit": 77
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": [
+            "Spider mite",
+            "Mealy bug",
+            "Scale"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Table top",
+            "Ground cover"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "calathea lancifolia"
+    },
+    {
+        "id": 43,
+        "latin": "Ficus elastica",
+        "family": "Moraceae",
+        "common": [
+            "Rubber plant",
+            "Tineke"
+        ],
+        "category": "Ficus",
+        "origin": "Cultivar",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 20
+        },
+        "tempmin": {
+            "celsius": 10,
+            "fahrenheit": 50
+        },
+        "ideallight": "6 or more hours of direct sunlight per day.",
+        "toleratedlight": "Direct sunlight.",
+        "watering": "Keep moist between watering. Can dry between watering",
+        "insects": [
+            "Mealy bug",
+            "Scale"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Table top",
+            "Tertiary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "ficus elastica"
+    },
+    {
+        "id": 44,
+        "latin": "Cycas revoluta",
+        "family": "Cycadaceae",
+        "common": [
+            "Sago palm",
+            "King sago"
+        ],
+        "category": "Palm",
+        "origin": "Japan",
+        "climate": "Subtropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 20
+        },
+        "tempmin": {
+            "celsius": 8,
+            "fahrenheit": 46.4
+        },
+        "ideallight": "Prefers bright, indirect sunlight.",
+        "toleratedlight": "/",
+        "watering": "Water when soil is half dry. Can be dry between watering.",
+        "insects": [
+            "Scale",
+            "Mealy bug"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Potted plant",
+            "Primary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "cycas revoluta"
+    },
+    {
+        "id": 45,
+        "latin": "Schefflera elegantissima",
+        "family": "Araliaceae",
+        "common": [
+            "False aralia"
+        ],
+        "category": "Aralia",
+        "origin": "New Calidonia",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 28,
+            "fahrenheit": 82.4
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 53.6
+        },
+        "ideallight": "6 or more hours of direct sunlight per day.",
+        "toleratedlight": "Direct sunlight.",
+        "watering": "Keep moist between watering. Can dry between watering",
+        "insects": [
+            "Spider mite",
+            "Mealy bug",
+            "Scale"
+        ],
+        "diseases": "N/A",
+        "use": [
+            "Potted plant",
+            "Secondary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "schefflera"
+    },
+    {
+        "id": 46,
+        "latin": "Yucca elephantipes",
+        "family": "Liliaceae",
+        "common": [
+            "Spineless yucca",
+            "Palm lily"
+        ],
+        "category": "Dracaena",
+        "origin": "Mexico",
+        "climate": "Subtropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 20
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 53.6
+        },
+        "ideallight": "6 or more hours of direct sunlight per day.",
+        "toleratedlight": "Direct sunlight.",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": "N/A",
+        "diseases": "Downy mildiou",
+        "use": [
+            "Potted plant",
+            "Secondary"
+        ],
+        "matched_as": "latin",
+        "matched_name": "yucca"
+    },
+    {
+        "id": 47,
+        "latin": "Zamioculcas zamifolia",
+        "family": "Araceae",
+        "common": [
+            "Zz plant"
+        ],
+        "category": "Foliage plant",
+        "origin": "South Africa",
+        "climate": "Tropical",
+        "tempmax": {
+            "celsius": 30,
+            "fahrenheit": 20
+        },
+        "tempmin": {
+            "celsius": 12,
+            "fahrenheit": 53.6
+        },
+        "ideallight": "Bright light",
+        "toleratedlight": "Diffused",
+        "watering": "Keep moist between watering. Water when soil is half dry.",
+        "insects": "N/A",
+        "diseases": "N/A",
+        "use": [
+            "Table top",
+            "Secondary"
+        ],
+        "matched_as": "latin_partial",
+        "matched_name": "zamioculcas zamiifolia"
+    }
+]
