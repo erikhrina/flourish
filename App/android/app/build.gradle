@@ -6,9 +6,9 @@ plugins {
 }
 
 android {
-    namespace = "com.example.flourish"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace = "com.erik.flourish"
+    compileSdk = 35
+    ndkVersion = "25.1.8937393"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -21,11 +21,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.flourish"
+        applicationId = "com.erik.flourish"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        minSdkVersion 24
+        targetSdk = 35
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
@@ -41,4 +41,18 @@ android {
 
 flutter {
     source = "../.."
+}
+
+
+configurations {
+    debugImplementation {
+        exclude group: 'io.objectbox', module: 'objectbox-android'
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.22"
+    implementation "androidx.activity:activity:1.6.0-alpha05"
+    implementation "io.objectbox:objectbox-android:4.0.3"
+    debugImplementation("io.objectbox:objectbox-android-objectbrowser:4.1.0")
 }

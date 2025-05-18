@@ -1,0 +1,92 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:593960518857412797",
+      "lastPropertyId": "13:4197379929296324061",
+      "name": "PlantModel",
+      "properties": [
+        {
+          "id": "1:9121770181334197890",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:2862126174370070572",
+          "name": "latin",
+          "type": 9
+        },
+        {
+          "id": "3:6323333729223998362",
+          "name": "family",
+          "type": 9
+        },
+        {
+          "id": "4:576993249872743023",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "5:6594866912854924910",
+          "name": "category",
+          "type": 9
+        },
+        {
+          "id": "6:9043792514220250729",
+          "name": "tempMax",
+          "type": 6
+        },
+        {
+          "id": "7:6959516055117268809",
+          "name": "tempMin",
+          "type": 6
+        },
+        {
+          "id": "8:793569223688330305",
+          "name": "idealLight",
+          "type": 9
+        },
+        {
+          "id": "9:7811296336753733712",
+          "name": "toleratedLight",
+          "type": 9
+        },
+        {
+          "id": "10:7668758491477443896",
+          "name": "watering",
+          "type": 9
+        },
+        {
+          "id": "11:2822363054208502234",
+          "name": "saved",
+          "type": 1
+        },
+        {
+          "id": "12:225668392898466327",
+          "name": "lastWatered",
+          "type": 9
+        },
+        {
+          "id": "13:4197379929296324061",
+          "name": "recent",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:593960518857412797",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

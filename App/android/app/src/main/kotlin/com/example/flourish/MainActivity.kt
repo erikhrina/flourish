@@ -1,4 +1,4 @@
-package com.example.flourish
+package com.erik.flourish
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -10,16 +10,16 @@ abstract class AppTheme {
 
   static ThemeMode get themeMode {
     final darkMode = _prefs?.getBool(kThemeModeKey);
+    if (darkMode == null) saveThemeMode(ThemeMode.light);
     return darkMode == null
-        ? ThemeMode.system
+        ? ThemeMode.light
         : darkMode
             ? ThemeMode.dark
             : ThemeMode.light;
   }
 
-  static void saveThemeMode(ThemeMode mode) => mode == ThemeMode.system
-      ? _prefs?.remove(kThemeModeKey)
-      : _prefs?.setBool(kThemeModeKey, mode == ThemeMode.dark);
+  static void saveThemeMode(ThemeMode mode) =>
+      _prefs?.setBool(kThemeModeKey, mode == ThemeMode.dark);
 
   static AppTheme of(BuildContext context) {
     return Theme.of(context).brightness == Brightness.dark
@@ -94,7 +94,7 @@ class ThemeTypography extends Typography {
         fontFamily: 'Inter',
         color: theme.primaryText,
         fontSize: 32,
-        fontWeight: FontWeight.normal,
+        fontWeight: FontWeight.w400,
       );
 
   TextStyle get titleMedium => TextStyle(
@@ -134,21 +134,21 @@ class ThemeTypography extends Typography {
 
   TextStyle get primaryLarge => TextStyle(
         fontFamily: 'Inter',
-        color: theme.primaryText,
+        color: theme.secondaryText,
         fontWeight: FontWeight.w500,
         fontSize: 16.0,
       );
 
   TextStyle get primaryMedium => TextStyle(
         fontFamily: 'Inter',
-        color: theme.primaryText,
+        color: theme.secondaryText,
         fontWeight: FontWeight.normal,
         fontSize: 12.0,
       );
 
   TextStyle get primarySmall => TextStyle(
         fontFamily: 'Inter',
-        color: theme.primaryText,
+        color: theme.secondaryText,
         fontWeight: FontWeight.w400,
         fontSize: 8.0,
       );
