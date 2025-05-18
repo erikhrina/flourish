@@ -1,3 +1,4 @@
+import 'package:flourish/models/plant_model.dart';
 import 'package:flourish/utils/app_theme.dart';
 import 'package:flourish/widgets/keep_alive_wrapper.dart';
 import 'package:flourish/widgets/list_tile.dart';
@@ -5,7 +6,7 @@ import 'package:flutter/material.dart';
 
 class GenericList extends StatefulWidget {
   final List<dynamic> data;
-  final void Function(dynamic) onTap;
+  final void Function(PlantModel model, bool remove) onTap;
   final bool enableRefresh;
   final void Function()? notifyParent;
   final bool showRemove;
@@ -27,32 +28,39 @@ class _GenericListState extends State<GenericList> {
   @override
   Widget build(BuildContext context) {
     return KeepAliveWidgetWrapper(
-      builder: (context) => RefreshIndicator(
-        color: AppTheme.of(context).primary,
-        backgroundColor: AppTheme.of(context).secondaryBackground,
-        elevation: 0,
-        onRefresh: () async {
-          if (widget.notifyParent != null) {
-            widget.notifyParent!();
-          }
-        },
-        child: widget.data.isNotEmpty
-            ? ListView(
-                padding: EdgeInsets.zero,
-                addAutomaticKeepAlives: true,
-                children: List.generate(
-                  widget.data.length,
-                  (index) => KeepAliveWidgetWrapper(
-                    builder: (context) => ListTileWidget(
-                      widget.data[index],
-                      showRemove: widget.showRemove,
-                    ),
-                  ),
-                ),
-              )
-            : _NoDataPlaceholder(),
-      ),
+      builder: (context) => widget.enableRefresh
+          ? RefreshIndicator(
+              color: AppTheme.of(context).primary,
+              backgroundColor: Colors.white,
+              elevation: 0,
+              onRefresh: () async {
+                if (widget.notifyParent != null) {
+                  widget.notifyParent!();
+                }
+              },
+              child: _buildListView(),
+            )
+          : _buildListView(),
     );
+  }
+
+  Widget _buildListView() {
+    return widget.data.isNotEmpty
+        ? ListView(
+            padding: EdgeInsets.zero,
+            addAutomaticKeepAlives: true,
+            children: List.generate(
+              widget.data.length,
+              (index) => KeepAliveWidgetWrapper(
+                builder: (context) => ListTileWidget(
+                  widget.data[index],
+                  showRemove: widget.showRemove,
+                  onTap: widget.onTap,
+                ),
+              ),
+            ),
+          )
+        : _NoDataPlaceholder();
   }
 }
 

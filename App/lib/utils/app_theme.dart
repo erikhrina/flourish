@@ -62,7 +62,7 @@ class LightModeTheme extends AppTheme {
   late Color primaryText = const Color(0xFF000000);
   late Color secondaryText = const Color(0xFF414141);
   late Color primaryBackground = const Color(0xFFF9F9F9);
-  late Color secondaryBackground = const Color(0xFFFFFFFF);
+  late Color secondaryBackground = const Color(0xFFF5F5F5);
 }
 
 abstract class Typography {
@@ -160,5 +160,5 @@ class DarkModeTheme extends AppTheme {
   late Color primaryText = const Color(0xFFFFFFFF);
   late Color secondaryText = const Color(0xFFC5C5C5);
   late Color primaryBackground = const Color(0xFF333333);
-  late Color secondaryBackground = const Color(0xFFEBEBEB);
+  late Color secondaryBackground = const Color(0xFF333333);
 }

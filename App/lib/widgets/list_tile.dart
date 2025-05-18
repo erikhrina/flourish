@@ -8,12 +8,14 @@ import 'package:icons_plus/icons_plus.dart';
 class ListTileWidget extends StatelessWidget {
   const ListTileWidget(
     this.plantModel, {
+    required this.onTap,
     this.showRemove = false,
     super.key,
   });
 
   final PlantModel plantModel;
   final bool showRemove;
+  final void Function(PlantModel model, bool remove) onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +25,7 @@ class ListTileWidget extends StatelessWidget {
         horizontal: 8.0,
       ),
       child: InkWell(
-        onTap: () {},
+        onTap: () => onTap(plantModel, false),
         splashFactory: InkRipple.splashFactory,
         splashColor: AppTheme.of(context).primary.withAlpha(160),
         borderRadius: BorderRadius.circular(8.0),
@@ -75,10 +77,7 @@ class ListTileWidget extends StatelessWidget {
               ),
               if (showRemove)
                 IconButton(
-                  onPressed: () {
-                    plantModel.recent = false;
-                    GetIt.instance<ObjectboxService>().savePlant(plantModel);
-                  },
+                  onPressed: () => onTap(plantModel, true),
                   splashRadius: 20,
                   splashColor: AppTheme.of(context).primary.withAlpha(160),
                   icon: Icon(
