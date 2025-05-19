@@ -1,4 +1,7 @@
 import 'package:flourish/main.dart';
+import 'package:flourish/models/plant_model.dart';
+import 'package:flourish/objectbox.g.dart';
+import 'package:flourish/pages/detail/detail_page.dart';
 import 'package:flourish/services/objectbox_service.dart';
 import 'package:flourish/utils/app_theme.dart';
 import 'package:flourish/widgets/generic_list.dart';
@@ -17,52 +20,65 @@ class MyPlantsPage extends StatefulWidget {
 class _MyPlantsPageState extends State<MyPlantsPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppTheme.of(context).primaryBackground,
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.only(
-            top: 32.0,
-            left: 16.0,
-            right: 16.0,
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'My Plants',
-                    style: AppTheme.of(context).titleLarge,
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      MyApp.of(context).setThemeMode(
-                        AppTheme.themeMode == ThemeMode.dark
-                            ? ThemeMode.light
-                            : ThemeMode.dark,
-                      );
-                    },
-                    icon: Icon(
-                      AppTheme.themeMode == ThemeMode.dark
-                          ? MingCute.sun_line
-                          : MingCute.moon_line,
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: AppTheme.of(context).primaryBackground,
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.only(
+              top: 32.0,
+              left: 16.0,
+              right: 16.0,
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'My Plants',
+                      style: AppTheme.of(context).titleLarge,
                     ),
-                  ),
-                ],
-              ),
-              Expanded(
-                child: GenericList(
-                  GetIt.instance<ObjectboxService>().getPlants(),
-                  onTap: (_) {},
+                    IconButton(
+                      onPressed: () {
+                        MyApp.of(context).setThemeMode(
+                          AppTheme.themeMode == ThemeMode.dark
+                              ? ThemeMode.light
+                              : ThemeMode.dark,
+                        );
+                      },
+                      icon: Icon(
+                        AppTheme.themeMode == ThemeMode.dark
+                            ? MingCute.sun_line
+                            : MingCute.moon_line,
+                      ),
+                    ),
+                  ],
                 ),
-              ),
-            ],
+                Expanded(
+                  child: GenericList(
+                    GetIt.instance<ObjectboxService>().getPlants(
+                      condition: PlantModel_.saved.equals(true),
+                      sortedByWater: true,
+                    ),
+                    enableRefresh: true,
+                    onTap: (PlantModel model, _) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => DetailPage(model),
+                        ),
+                      ).then((_) => setState(() {}));
+                    },
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
+        bottomNavigationBar: NavigationBarWrapper('myPlants'),
       ),
-      bottomNavigationBar: NavigationBarWrapper('myPlants'),
     );
   }
 }

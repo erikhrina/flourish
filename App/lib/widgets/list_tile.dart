@@ -1,8 +1,6 @@
 import 'package:flourish/models/plant_model.dart';
-import 'package:flourish/services/objectbox_service.dart';
 import 'package:flourish/utils/app_theme.dart';
 import 'package:flutter/material.dart';
-import 'package:get_it/get_it.dart';
 import 'package:icons_plus/icons_plus.dart';
 
 class ListTileWidget extends StatelessWidget {

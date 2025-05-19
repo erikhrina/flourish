@@ -34,6 +34,7 @@ abstract class AppTheme {
   late Color secondaryText;
   late Color primaryBackground;
   late Color secondaryBackground;
+  late Color tertiaryBackground;
 
   TextStyle get titleLarge => typography.titleLarge;
 
@@ -63,6 +64,7 @@ class LightModeTheme extends AppTheme {
   late Color secondaryText = const Color(0xFF414141);
   late Color primaryBackground = const Color(0xFFF9F9F9);
   late Color secondaryBackground = const Color(0xFFF5F5F5);
+  late Color tertiaryBackground = const Color(0xFFFFFFFF);
 }
 
 abstract class Typography {
@@ -161,4 +163,5 @@ class DarkModeTheme extends AppTheme {
   late Color secondaryText = const Color(0xFFC5C5C5);
   late Color primaryBackground = const Color(0xFF333333);
   late Color secondaryBackground = const Color(0xFF333333);
+  late Color tertiaryBackground = const Color(0xFFEBEBEB);
 }

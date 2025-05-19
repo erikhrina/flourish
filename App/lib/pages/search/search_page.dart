@@ -33,65 +33,67 @@ class _SearchPageState extends State<SearchPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppTheme.of(context).primaryBackground,
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.only(
-            top: 32.0,
-            left: 16.0,
-            right: 16.0,
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              SearchWidget(
-                controller: _searchController,
-                onSubmit: () {
-                  results = _fetchData();
-                  setState(() {});
-                },
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 16.0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  children: [
-                    Text(
-                      isSearching ? 'Results' : 'Recent',
-                      style: AppTheme.of(context).titleLarge,
-                    ),
-                  ],
-                ),
-              ),
-              Expanded(
-                child: GenericList(
-                  results,
-                  enableRefresh: false,
-                  showRemove: !isSearching,
-                  onTap: (PlantModel model, bool remove) {
-                    model.recent = !remove;
-                    _objectboxService.savePlant(model);
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: AppTheme.of(context).primaryBackground,
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.only(
+              top: 32.0,
+              left: 16.0,
+              right: 16.0,
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                SearchWidget(
+                  controller: _searchController,
+                  onSubmit: () {
                     results = _fetchData();
-
-                    if (!remove) {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => DetailPage(model),
-                        ),
-                      ).then((_) => setState(() {}));
-                    } else {
-                      setState(() {});
-                    }
+                    setState(() {});
                   },
                 ),
-              ),
-            ],
+                Padding(
+                  padding: const EdgeInsets.only(top: 16.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Text(
+                        isSearching ? 'Results' : 'Recent',
+                        style: AppTheme.of(context).titleLarge,
+                      ),
+                    ],
+                  ),
+                ),
+                Expanded(
+                  child: GenericList(
+                    results,
+                    enableRefresh: false,
+                    showRemove: !isSearching,
+                    onTap: (PlantModel model, bool remove) {
+                      model.recent = !remove;
+                      _objectboxService.savePlant(model);
+                      results = _fetchData();
+
+                      if (!remove) {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DetailPage(model),
+                          ),
+                        ).then((_) => setState(() {}));
+                      } else {
+                        setState(() {});
+                      }
+                    },
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
+        bottomNavigationBar: NavigationBarWrapper('search'),
       ),
-      bottomNavigationBar: NavigationBarWrapper('search'),
     );
   }
 

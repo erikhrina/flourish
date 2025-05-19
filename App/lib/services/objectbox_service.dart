@@ -44,8 +44,8 @@ class ObjectboxService {
   }
 
   List<PlantModel> getPlants({
-    bool sorted = true,
     bool sortedByWater = false,
+    bool sortedByRecent = false,
     Condition<PlantModel>? condition,
   }) {
     List<PlantModel> plants;
@@ -65,12 +65,17 @@ class ObjectboxService {
     }
 
     // Sort if needed
-    if (sorted) {
+    if (sortedByWater) {
+      // TODO: implement
       plants.sort((a, b) {
         return a.name.toLowerCase().compareTo(b.name.toLowerCase());
       });
-    } else if (sortedByWater) {
+    } else if (sortedByRecent) {
       // TODO: implement
+      plants.sort((a, b) {
+        return a.name.toLowerCase().compareTo(b.name.toLowerCase());
+      });
+    } else {
       plants.sort((a, b) {
         return a.name.toLowerCase().compareTo(b.name.toLowerCase());
       });
