@@ -1,5 +1,6 @@
 import 'package:flourish/models/plant_model.dart';
 import 'package:flourish/objectbox.g.dart';
+import 'package:flourish/pages/detail/detail_page.dart';
 import 'package:flourish/services/objectbox_service.dart';
 import 'package:flourish/utils/app_theme.dart';
 import 'package:flourish/widgets/generic_list.dart';
@@ -19,6 +20,8 @@ class _SearchPageState extends State<SearchPage> {
   final _objectboxService = GetIt.instance<ObjectboxService>();
   late TextEditingController _searchController;
   List<PlantModel> results = [];
+
+  bool isSearching = false;
 
   @override
   void initState() {
@@ -55,7 +58,7 @@ class _SearchPageState extends State<SearchPage> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Text(
-                      'Recent',
+                      isSearching ? 'Results' : 'Recent',
                       style: AppTheme.of(context).titleLarge,
                     ),
                   ],
@@ -65,12 +68,22 @@ class _SearchPageState extends State<SearchPage> {
                 child: GenericList(
                   results,
                   enableRefresh: false,
-                  showRemove: true,
+                  showRemove: !isSearching,
                   onTap: (PlantModel model, bool remove) {
                     model.recent = !remove;
                     _objectboxService.savePlant(model);
                     results = _fetchData();
-                    setState(() {});
+
+                    if (!remove) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => DetailPage(model),
+                        ),
+                      ).then((_) => setState(() {}));
+                    } else {
+                      setState(() {});
+                    }
                   },
                 ),
               ),
@@ -83,15 +96,24 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   List<PlantModel> _fetchData() {
-    if (_searchController.text.isNotEmpty &&
-        _searchController.text.length >= 3) {
+    String searchText = _searchController.text;
+    if (searchText.isNotEmpty && searchText.length >= 3) {
+      isSearching = true;
       return _objectboxService.getPlants(
-        condition: PlantModel_.name.contains(
-          _searchController.text,
-          caseSensitive: false,
-        ),
+        condition: PlantModel_.name
+            .contains(
+              searchText,
+              caseSensitive: false,
+            )
+            .or(
+              PlantModel_.latin.contains(
+                searchText,
+                caseSensitive: false,
+              ),
+            ),
       );
     } else {
+      isSearching = false;
       return _objectboxService.getPlants(
         condition: PlantModel_.recent.equals(true),
       );

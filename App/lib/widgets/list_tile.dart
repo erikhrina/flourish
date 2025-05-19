@@ -69,6 +69,11 @@ class ListTileWidget extends StatelessWidget {
                               plantModel.lastWatered ?? 'Not watered yet',
                               style: AppTheme.of(context).primaryMedium,
                             ),
+                          if (showRemove)
+                            Text(
+                              plantModel.latin,
+                              style: AppTheme.of(context).primaryMedium,
+                            ),
                         ],
                       ),
                     )
