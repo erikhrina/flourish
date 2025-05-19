@@ -1,4 +1,5 @@
 import 'package:flourish/pages/my_plants/my_plants_page.dart';
+import 'package:flourish/services/classifier_service.dart';
 import 'package:flourish/services/objectbox_service.dart';
 import 'package:flourish/utils/app_theme.dart';
 import 'package:flutter/material.dart';
@@ -12,6 +13,9 @@ void main() async {
 
   ObjectboxService objectboxService = await ObjectboxService().create();
   _getIt.registerSingleton<ObjectboxService>(objectboxService);
+
+  ClassifierService classifierService = await ClassifierService.create();
+  _getIt.registerSingleton<ClassifierService>(classifierService);
 
   runApp(const MyApp());
 }

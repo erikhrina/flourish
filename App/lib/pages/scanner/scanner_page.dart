@@ -2,6 +2,7 @@ import 'dart:typed_data';
 import 'package:camera/camera.dart';
 import 'package:flourish/models/plant_model.dart';
 import 'package:flourish/pages/detail/detail_page.dart';
+import 'package:flourish/services/classifier_service.dart';
 import 'package:flourish/services/objectbox_service.dart';
 import 'package:flourish/utils/app_theme.dart';
 import 'package:flourish/widgets/loading_indicator.dart';
@@ -22,6 +23,7 @@ class _ScannerPageState extends State<ScannerPage> {
   late CameraController _cameraController;
   final _imagesService = ImagesService();
   final _objectboxService = GetIt.instance<ObjectboxService>();
+  final _classifierService = GetIt.instance<ClassifierService>();
   bool _isCameraInitialized = false;
   bool _isFlashOn = false;
 
@@ -78,6 +80,7 @@ class _ScannerPageState extends State<ScannerPage> {
     try {
       final XFile file = await _cameraController.takePicture();
       final Uint8List imageBytes = await file.readAsBytes();
+      _toggleFlash();
 
       final jpgImage = await _imagesService.convertToJPG(imageBytes);
 
@@ -87,11 +90,26 @@ class _ScannerPageState extends State<ScannerPage> {
     }
   }
 
+  Widget buildPreview() {
+    if (_isCameraInitialized) {
+      return CameraPreview(_cameraController);
+    } else {
+      return Center(child: LoadingIndicatorWrapper());
+    }
+  }
+
   Future<void> _handleImage(Uint8List? jpgImage) async {
     if (jpgImage != null) {
-      int id = 1;
+      // Obtain a prediction
+      int id = _classifierService.predict(jpgImage);
       PlantModel? identifiedPlant = _objectboxService.getPlantById(id);
+
       if (identifiedPlant != null && mounted) {
+        // Save as a recent search
+        identifiedPlant.recent = true;
+        _objectboxService.savePlant(identifiedPlant);
+
+        // Show the result
         await Navigator.push(
           context,
           MaterialPageRoute(
@@ -99,14 +117,6 @@ class _ScannerPageState extends State<ScannerPage> {
           ),
         );
       }
-    }
-  }
-
-  Widget buildPreview() {
-    if (_isCameraInitialized) {
-      return CameraPreview(_cameraController);
-    } else {
-      return Center(child: LoadingIndicatorWrapper());
     }
   }
 
